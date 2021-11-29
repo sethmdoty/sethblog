@@ -142,7 +142,7 @@ url = "about/"
 [[languages.en.menu.main]]
 name = "Blog"
 weight = 2
-url = "posts/"
+url = "post/"
 
 #[[languages.en.menu.main]]
 #name = "Projects"
@@ -153,3 +153,14 @@ url = "posts/"
 name = "Contact me"
 weight = 5
 url = "contact/"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$", "(^|/renv$", "renv\\.lock$"]
+
+[[permalinks]]
+posts = '/:year/:month/:day/:slug/'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
