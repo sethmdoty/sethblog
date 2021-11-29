@@ -16,8 +16,8 @@ author = "Seth Doty"
 description = "Seth Doty's personal website"
 keywords = "blog,developer,personal"
 info = ["Platform Engineer, Data Scientist,DevOps, Dad"]
-#avatarURL = "images/avatar.jpg"
-gravatar = "sethmdoty@icloud.com"
+avatarURL = "images/avatar.jpg"
+#gravatar = "sethmdoty@icloud.com"
 dateFormat = "January 2, 2006"
 since = 2021
 # Git Commit in Footer, uncomment the line below to enable it
