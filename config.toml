@@ -1,4 +1,4 @@
-baseURL = "http://blog.sethdoty.dev"
+baseURL = "http://sethdoty.dev"
 title = "Seth Doty"
 theme = "hugo-coder"
 languageCode = "en"
@@ -82,10 +82,10 @@ stylesrc = [
   "https://fonts.googleapis.com/",
   "https://cdn.jsdelivr.net/"
 ]
-scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
+scriptsrc = ["'self'", "'unsafe-inline'"]
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://www.google-analytics.com"]
+connectsrc = ["'self'"]
 
 [taxonomies]
 category = "categories"
@@ -127,7 +127,7 @@ url = "https://www.linkedin.com/in/seth-doty-969ab147/"
 name = "RSS"
 icon = "fa fa-2x fa-rss"
 weight = 6
-url = "https://blog.sethdoty.dev/index.xml"
+url = "https://sethdoty.dev/index.xml"
 rel = "alternate"
 type = "application/rss+xml"
 
