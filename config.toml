@@ -85,7 +85,7 @@ stylesrc = [
 scriptsrc = ["'self'", "'unsafe-inline'"]
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'""]
+connectsrc = ["'self'"]
 
 [taxonomies]
 category = "categories"
